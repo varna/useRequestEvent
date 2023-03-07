@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "NITRO_PRESET=netlify-builder nuxt build",
+    "dev": "NITRO_PRESET=netlify-builder HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "preinstall": "nuxt info"
+  },
+  "devDependencies": {
+    "nuxt": "^3.2.3"
+  }
+}
